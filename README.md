@@ -1,7 +1,7 @@
 # Cross-Scanner-Breast-Adenocarcinoma-Image-Segmentation-With-Deep-Learning-Algorithms
 
 
-This repository contains the full implementation and experimental pipeline developed for my **Master’s Thesis**:
+This repository contains the full implementation and experimental pipeline developed for my Master’s Thesis:
 
 The work was conducted as part of the [**Task 2 COSAS 2024 Challenge (Cross-Scanner Adenocarcinoma Segmentation)**](https://cosas.grand-challenge.org/) and explores how foundation vision transformers can be fine-tuned for robust histopathological segmentation across different scanners and staining conditions.
 
@@ -29,7 +29,7 @@ To achieve this, several decoder architectures were implemented and compared:
 - **Cross-scanner evaluation:** trained on 3 scanners, tested on 6 (including unseen domains)
 - **Loss optimization:** comparative study of BCE, Dice, Tversky, and Focal formulations
 - **Post-processing pipeline:** threshold + morphology sweep with Gaussian smoothing and small-object cleanup
-- **Memory-efficient training:** 11–19 GB VRAM, single-pass inference (20–25 sec/domain)
+- **Memory-efficient training:** 11–19 GB VRAM, single-pass inference (20-25 sec/domain)
 
 ---
 
