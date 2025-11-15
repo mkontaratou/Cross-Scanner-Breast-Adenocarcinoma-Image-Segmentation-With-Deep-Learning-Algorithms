@@ -3,7 +3,7 @@
 
 This repository contains the full implementation and experimental pipeline developed for my **Master’s Thesis**:
 
-The work was conducted as part of the **Task 2 COSAS 2024 Challenge (Cross-Scanner Adenocarcinoma Segmentation)** and explores how foundation vision transformers can be fine-tuned for robust histopathological segmentation across different scanners and staining conditions.
+The work was conducted as part of the [**Task 2 COSAS 2024 Challenge (Cross-Scanner Adenocarcinoma Segmentation)**](https://cosas.grand-challenge.org/) and explores how foundation vision transformers can be fine-tuned for robust histopathological segmentation across different scanners and staining conditions.
 
 ---
 
