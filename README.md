@@ -2,9 +2,8 @@
 
 
 This repository contains the full implementation and experimental pipeline developed for my **Master’s Thesis**:
-> *"Scanner- and Stain-Agnostic Nuclei Segmentation using UNI2-H Foundation Models"*
 
-The work was conducted as part of the ** Task 2COSAS 2024 Challenge (Cross-Organ, Cross-Scanner Adenocarcinoma Segmentation)** and explores how foundation vision transformers can be fine-tuned for robust histopathological segmentation across different scanners and staining conditions.
+The work was conducted as part of the **Task 2 COSAS 2024 Challenge (Cross-Scanner Adenocarcinoma Segmentation)** and explores how foundation vision transformers can be fine-tuned for robust histopathological segmentation across different scanners and staining conditions.
 
 ---
 
@@ -45,7 +44,7 @@ Experiments were conducted on the **COSAS 2024 Task 2 dataset**:
 
 ## Results Summary
 
-- Foundation transformer (UNI2-H) achieved strong*cross-domain generalization 
+- Foundation transformer (UNI2-H) achieved strong cross-domain generalization 
 - Dual HR/LR Fusion decoder reached the best overall score (0.8217)  
 - PixelFPN-based models offered the best speed/accuracy trade-off 
 - Lite Query design improved grouping and boundary sharpness on dense clusters  
